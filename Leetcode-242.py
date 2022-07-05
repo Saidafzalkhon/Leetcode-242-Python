@@ -1,0 +1,6 @@
+s,t = map(str,input().split())
+a = list(s)
+b = list(t)
+a.sort()
+b.sort()
+print(True if a == b else False)
